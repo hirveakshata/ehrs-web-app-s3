@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ehrs-web-app-s3"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-s3-template #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "ehrs-web-app-s3"
+  description: "Testing"
+  tags: ["aws-s3"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Production"
